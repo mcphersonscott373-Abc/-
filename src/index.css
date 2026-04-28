@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-[#E6E6E6] text-[#141414] font-mono selection:bg-zinc-800 selection:text-white;
+  }
+}
+
+@layer components {
+  .hardware-card {
+    @apply bg-[#151619] text-white rounded-xl shadow-2xl p-6 border border-zinc-800;
+  }
+
+  .status-label {
+    @apply text-[10px] uppercase tracking-widest text-[#8E9299] font-bold;
+  }
+
+  .mnemonic-word {
+    @apply px-2 py-1 bg-zinc-800 rounded border border-zinc-700 text-xs text-zinc-300;
+  }
+}

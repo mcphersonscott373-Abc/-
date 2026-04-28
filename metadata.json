@@ -1,0 +1,6 @@
+{
+  "name": "BIP39 Mnemonic Forge",
+  "description": "A high-security, technical tool for generating valid 24-word BIP39 mnemonic seed phrases with a hardware-inspired interface.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
